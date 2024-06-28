@@ -1,0 +1,21 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .SvgMap {
+    fill: #00308F;
+  }
+  
+  .focused {
+    fill: red; /* Change this to the desired color */
+  }
+
+  .SvgMapOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    pointer-events: none; /* Ensure the overlay does not interfere with map interactions */
+  }
